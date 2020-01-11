@@ -1,8 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { ReactComponent as AboutSVG } from '../../assets/images/about.svg';
+import { ReactComponent as AboutSVG } from '../../images/about.svg';
 
 export function About(props) {
+
   return (
     <div>
       <AboutSVG className="about-svg" />

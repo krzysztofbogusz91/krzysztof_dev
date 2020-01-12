@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-
+import './Hero.scss'
 export default class Hero extends Component {
   static propTypes = {
     prop: PropTypes
@@ -9,8 +9,11 @@ export default class Hero extends Component {
 
   render() {    
     return (
-      <div className="navbar">
-        { this.header }
+      <div className="hero">
+        <div>
+          
+          { this.header }
+          </div>
       </div>
     )
   }

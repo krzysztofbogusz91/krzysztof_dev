@@ -1,4 +1,7 @@
 import React from 'react';
+
+import 'normalize.css';
+
 import './App.scss';
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
